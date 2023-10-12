@@ -1,0 +1,25 @@
+baseURL: "https://jkerola.github.io/blog"
+languageCode: "en-us"
+defaultContentLanguage: "en"
+title: "jkerola's blog"
+theme: "mini"
+paginate: 3
+
+params:
+  author: "jkerola"
+  showPowerBy: false
+
+social:
+  github: https://github.com/jkerola
+
+permalinks:
+  posts: "/posts/:title/"
+  paginate: "3"
+
+markup:
+  highlight:
+    style: "rose-pine-dawn"
+    codeFences: true
+  goldmark:
+    renderer:
+      unsafe: true
