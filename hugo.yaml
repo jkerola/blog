@@ -4,6 +4,7 @@ defaultContentLanguage: "en"
 title: "jkerola's blog"
 theme: "mini"
 paginate: 3
+enableGitInfo: true
 
 params:
   author: "jkerola"
@@ -15,6 +16,11 @@ social:
 permalinks:
   posts: "/posts/:title/"
   paginate: "3"
+
+frontmatter:
+  lastmod:
+    - ":git"
+    - ":fileModTime"
 
 markup:
   highlight:
