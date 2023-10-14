@@ -129,16 +129,6 @@ bind = CONTROL, SPACE, exec, fuzzel --show-actions
 ...
 ```
 
-### **Optional:** Start Hyprland on login
-
-```shell
-$ sudoedit /etc/profile.d/start-hyprland.sh
-...
-# Copy the following into 'start-hyprland.sh'
-#! /bin/bash
-Hyprland
-```
-
 Save the configuration, launch Hyprland again and test out your changes! Use fuzzel to launch firefox and test your audio. You may need to run `pulseaudio --start` in order to get things going.
 
 This document is meant to get you started with a few reasonable defaults. The [Hyprland wiki](https://wiki.hyprland.org/) is an _excellent_ resource for further customizing the environment to your specific needs.
