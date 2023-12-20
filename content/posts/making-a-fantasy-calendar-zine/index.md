@@ -1,6 +1,6 @@
 ---
 title: "Making a fantasy calendar zine for D&D"
-draft: true
+draft: false
 date: 2023-12-20
 ---
 
